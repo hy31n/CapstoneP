@@ -1,4 +1,4 @@
-# :page_with_curl: 나를 소개할 수 있는 개인 홈페이지 제작(확정x)
+# :page_with_curl: 나를 소개할 수 있는 개인 홈페이지 제작
 ## 프로젝트 소개
 
 ## 프로젝트 계획
@@ -10,3 +10,6 @@
 |6~7|사용자 인증 시스템 구축|
 |8|프론트엔드-백엔드 연동|
 |9|피드백 및 기능 개선|
+
+## 기본 UI
+![image](https://github.com/user-attachments/assets/0eb48b95-9410-40fb-ba47-8aa67df9f070)
