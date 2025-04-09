@@ -12,4 +12,5 @@
 |9|피드백 및 기능 개선|
 
 ## 기본 UI
-![image](https://github.com/user-attachments/assets/0eb48b95-9410-40fb-ba47-8aa67df9f070)
+![image](https://github.com/user-attachments/assets/1b41f6a4-5608-43bf-a482-46e3c867e498)
+
