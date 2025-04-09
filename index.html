@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ko">
   <head>
@@ -110,3 +111,156 @@
     </div>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>사이트 이름</title>
+    <style type="text/css">
+      body {
+        margin: 0px;
+        overflow-x: hidden;
+        background-color: lightsalmon;
+      }
+
+      .center-wrapper {
+        display: flex;
+        justify-content: center;
+        padding: 50px 20px; /* 위아래 여백 줘서 스크롤 여유 */
+        box-sizing: border-box;
+      }
+
+      .box-cover {
+        display: grid; /* grid 속성 */
+        justify-content: center; /* 가로 기준 중앙에 배치 */
+        align-content: center; /*세로 기준 중앙에 배치 */
+
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+
+        width: 100%; /* 전체 너비로 유동 설정 */
+        max-width: 880px; /* 최대 너비 제한, 이 이상은 커지지 않게 */
+        box-sizing: border-box;
+
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-rows: 100px 50px 190px 190px;
+        grid-template-areas:
+          'a  a  a  e'
+          'd  d  d  e'
+          'b  c  c  e'
+          'b  c  c  e';
+      }
+
+      .box-a {
+        background-color: aqua;
+        grid-area: a;
+      }
+
+      .box-b {
+        background-color: coral;
+        grid-area: b;
+      }
+
+      .box-c {
+        background-color: beige;
+        grid-area: c;
+      }
+
+      .box-d-menu {
+        background-color: greenyellow;
+        grid-area: d;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box-d-menu li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-left: 50px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box-e {
+        background-color: lightblue; /* 뮤직 플레이어 박스 */
+        grid-area: e;
+        display: flex;
+      }
+
+      .player {
+        background-color: white;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+
+      .player-title {
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .player .trackdurationcontrols {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+      }
+
+      .player .trackcontrols button {
+        font-size: 13px;
+        background: none;
+        border: none;
+        color: var(--playericons);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center-wrapper">
+      <div class="box-cover">
+        <div class="box-a">배너</div>
+        <div class="box-d-menu">
+          <li data-page="1">일기</li>
+          <li data-page="2">메모</li>
+        </div>
+        <div class="box-b">캘린더</div>
+        <div class="box-c">게시글</div>
+        <div class="box-e">
+          <div class="player">
+            <div class="player-title">song title</div>
+            <div class="trackdurationcontrols">노래 길이</div>
+            <div class="trackcontrols">
+              <button>prev</button> <button>pause</button> <button>next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const menuItems = document.querySelectorAll('.box-d-menu');
+      const postContainer = document.querySelector('.box-c');
+
+      menuItems.forEach((item) => {
+        item.addEventListener('click', () => {
+          const page = item.getAttribute('data-page');
+          fetch(page)
+            .then((res) => res.text())
+            .then((html) => {
+              postContainer.innerHTML = html;
+            });
+        });
+      });
+    </script>
+  </body>
+</html>
+>>>>>>> ac6264c (first commit)
