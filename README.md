@@ -1,5 +1,8 @@
 # :page_with_curl: 나를 소개할 수 있는 개인 홈페이지 제작
 ## 프로젝트 소개
+개인 프로젝트와 취미를 소개하는 반응형 홈페이지를 제작
+<br/>HTML/CSS와 JavaScript를 기반으로 일기, 메모 기능을 통해 개인 기록을 정리할 수 있도록 구현
+<br/>비주얼 스튜디오 환경에서 개발, 깃허브와 연동하여 버전 관리
 
 ## 프로젝트 계획
 |주차|작업 내용|
@@ -12,4 +15,5 @@
 |9|피드백 및 기능 개선|
 
 ## 기본 UI
-![image](https://github.com/user-attachments/assets/0eb48b95-9410-40fb-ba47-8aa67df9f070)
+![image](https://github.com/user-attachments/assets/1b41f6a4-5608-43bf-a482-46e3c867e498)
+
