@@ -1,6 +1,6 @@
 # :page_with_curl: Chat Gpt + 웹페이지
 ## 프로젝트 소개
-<br/>비주얼 스튜디오 환경에서 개발, 깃허브와 연동하여 버전 관리
+비주얼 스튜디오 환경에서 개발, 깃허브와 연동하여 버전 관리
 
 ## 프로젝트 계획
 |주차|작업 내용|
@@ -13,5 +13,5 @@
 |9|피드백 및 기능 개선|
 
 ## 기본 UI
-![image](https://github.com/user-attachments/assets/1b41f6a4-5608-43bf-a482-46e3c867e498)
+![image](https://github.com/user-attachments/assets/ea2334bd-cb74-4fa7-b0af-5eecc64ee901)
 
