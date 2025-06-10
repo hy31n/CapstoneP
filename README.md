@@ -12,7 +12,14 @@
 |8|프론트엔드-백엔드 연동|
 |9|피드백 및 기능 개선|
 
+
 ## 기본 UI
 ![image](https://github.com/user-attachments/assets/865a883e-c064-4844-a807-778b3edd0339)
+
+
+## 프론트엔드, 백엔드 연동
+![image](https://github.com/user-attachments/assets/d81434d5-6ac3-4146-b735-716ad7a540fe)
+![image](https://github.com/user-attachments/assets/b07cb130-2ff5-43e4-aaf2-6d48eccc39c1)
+
 
 
