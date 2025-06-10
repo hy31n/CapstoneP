@@ -9,7 +9,7 @@
 </script>
 
 
-<div class="ui">
+<div class="ui" style="background-color: #ededee;">
     <Header headerName={headerValue} />
     <slot />
 </div>
