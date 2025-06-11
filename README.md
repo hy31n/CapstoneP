@@ -4,6 +4,7 @@ ChatGPT API와 연동된 실시간 채팅 인터페이스
 <br/>사용자 질문에 대한 AI 응답 생성
 <br/>대화 내역 저장 및 관리
 <br/>비주얼 스튜디오 환경에서 개발, 깃허브와 연동하여 버전 관리
+https://www.notion.so/20d9a906882f80f29b8bfcb7a24fd6c1?source=copy_link
 
 ## 프로젝트 계획
 |주차|작업 내용|
