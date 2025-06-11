@@ -17,8 +17,8 @@ ChatGPT API와 연동된 실시간 채팅 인터페이스
 |9|피드백 및 기능 개선|
 
 
-## 기본 UI
-![image](https://github.com/user-attachments/assets/865a883e-c064-4844-a807-778b3edd0339)
+## 메인 화면
+![image](https://github.com/user-attachments/assets/99d7cf95-0804-42dd-99bf-86fc963017bd)
 
 
 ## 프론트엔드, 백엔드 연동
